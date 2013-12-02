@@ -179,7 +179,7 @@ $(function() {
 			this.url = url;
 		}
 		this.load = function() {
-			self = this;
+			var self = this;
 			$.ajax({
 				type : "GET",
 				url : this.url,
@@ -189,8 +189,8 @@ $(function() {
 					self.jsonObj = data;
 				},
 				error : function(xhr, ajaxOptions, thrownError) {
-					alert(xhr.status);
-					alert(thrownError);
+					alert("status: " + xhr.status);
+					alert("error: " + thrownError);
 				}
 			});
 		}
