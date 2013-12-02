@@ -1,0 +1,73 @@
+{
+	"map_general" : {
+		"area_name" : "Provincetown, Massachusetts",
+		"center"  : 
+		{
+			"latitude" : 42.0530000,
+			"longitude" : -70.185
+		},
+		"zoom" : 16
+	},
+	"icons" : {
+		"RESTAURANTS" : "images/restaurant.png",
+		"HOTELS" : "images/hotel.png",
+		"BARS" : "images/bar.png"		
+	},
+	"venues" : 	
+		[
+			{
+				"venueName": "Ross' Grill",
+				"venueType": "RESTAURANTS",
+				"latitude":  42.049973,
+				"longitude": -70.187645
+			},
+			{
+				"venueName": "Devon's",
+				"venueType": "RESTAURANTS",
+				"latitude":  42.0543642,
+				"longitude": -70.1822603
+			},
+			{
+				"venueName": "Mew's",
+				"venueType": "RESTAURANTS",
+				"latitude":  42.0553645,
+				"longitude": -70.180796
+			},
+			{
+				"venueName": "Carpe Diem",
+				"venueType": "HOTELS",
+				"latitude":  42.0541576,
+				"longitude": -70.1847173
+			},
+			{
+				"venueName": "Gabriel's",
+				"venueType": "HOTELS",
+				"latitude":  42.051442,
+				"longitude": -70.1880369
+			},
+			{
+				"venueName": "Crowne Pointe",
+				"venueType": "HOTELS",
+				"latitude":  42.0502284,
+				"longitude": -70.1898686
+			},
+			{
+				"venueName": "Harbor Lounge",
+				"venueType": "BARS",
+				"latitude":  42.053172,
+				"longitude": -70.1837199
+			},
+			{
+				"venueName": "Old Colony Tap",
+				"venueType": "BARS",
+				"latitude":  42.051925,
+				"longitude": -70.18509
+			},
+			{
+				"venueName": "Ten Tables",
+				"venueType": "BARS",
+				"latitude": 42.05251,
+				"longitude": -70.186595
+			}
+		]
+}

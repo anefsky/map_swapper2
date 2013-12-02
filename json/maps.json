@@ -1,0 +1,13 @@
+{
+	"maps" :
+		[
+			{
+				"label" : "Provincetown",
+				"jsonFile" : "json/ptown.json"
+			},
+			{
+				"label" : "North Conway",
+				"jsonFile" : "json/conway.json"
+			}
+		]
+}

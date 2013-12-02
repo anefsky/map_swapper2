@@ -1,0 +1,55 @@
+
+body {
+	text-align:center;
+/* 	background-color: tan; */
+	font-size: 24pt;
+	background-image : url('../images/blue_heaven.jpg');
+}
+
+
+#content  {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#map_name {
+	font-size: 30pt;
+	font-style: italic;
+}
+
+#googleMap {
+/* 	width:500px; */
+/* 	height:380px; */
+	width:650px;
+	height:425px;
+}
+.googleMapBorder {
+}
+
+#choose_map_area p {
+	display: inline-block;
+	width: 250px;
+	text-align: right;
+	margin-top: 40px;
+}
+#choose_venue_area p {
+	display: inline-block;
+	width: 250px;
+	text-align: right;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+#choose_map_select {
+	display: inline-block;
+	font-size: 24pt;
+	width: 300px;
+	margin-top: 40px;
+}
+#choose_venue_select {
+	display: inline-block;
+	font-size: 24pt;
+	width: 300px;
+	margin-top: 0px;
+	padding-top: 0px;
+}

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>map mashup using backbone.js</title>
+</head>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script
+	src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+<script
+	src="http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
+
+<script
+	src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCbnHOleToeox-ebVAuVC3oKovLwv1lpg4&sensor=false"></script>
+
+<script src="js/site.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="css/site.css" />
+<body>
+	<div id="content">
+		<p id="map_name">Choose a map below</p>
+		<div id="googleMap"></div>
+		<div id="choose_map_area">
+			<p>Select Map:</p>
+			<select id="choose_map_select">
+				<option value="" selected="selected">Select map:</option>
+			</select>
+		</div>
+		<div id="choose_venue_area">
+			<p>Display venues:</p>
+			<select id="choose_venue_select">
+			</select>
+		</div>
+	</div>
+</body>
+</html>

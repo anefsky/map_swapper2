@@ -1,0 +1,50 @@
+{
+	"map_general" : {
+		"area_name" : "North Conway, New Hampshire",
+		"center"  : 
+		{
+			"latitude" : 44.0322186,
+			"longitude" : -71.1219026
+		},
+		"zoom" : 12
+	},
+	"icons" : {
+		"RESTAURANTS" : "images/restaurant.png",
+		"HOTELS" : "images/hotel.png",
+		"BARS" : "images/bar.png",		
+		"SHOPPING" : "images/shopping.png"		
+	},
+	"venues" : 	
+		[
+			{
+				"venueName": "Northern Extremes",
+				"venueType": "SHOPPING",
+				"latitude": 44.0322186,
+				"longitude": -71.1219026
+			},
+			{
+				"venueName": "Holiday Inn",
+				"venueType": "HOTELS",
+				"latitude": 44.0269605,
+				"longitude": -71.1185672
+			},
+			{
+				"venueName": "White Mountain Hotel",
+				"venueType": "HOTELS",
+				"latitude": 44.0472551,
+				"longitude": -71.1507023
+			},
+			{
+				"venueName": "Leavitt's Country Bakery",
+				"venueType": "RESTAURANTS",
+				"latitude": 43.9916649,
+				"longitude": -71.1106492
+			},
+			{
+				"venueName": "Handcrafter's Barn",
+				"venueType": "SHOPPING",
+				"latitude": 44.0475055,
+				"longitude": -71.1240275
+			}
+		]
+}
