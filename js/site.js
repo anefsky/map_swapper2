@@ -222,11 +222,11 @@ $(function() {
 	}
 
 	var doAnimation = function() {
+			createMap();
 		$('#googleMap').animate({
 			marginLeft : "-=2000px",
 		}, 1000, 
 		function() { // after completion - makes op sync
-			createMap();
 			moveMapOn();
 		});
 	}
